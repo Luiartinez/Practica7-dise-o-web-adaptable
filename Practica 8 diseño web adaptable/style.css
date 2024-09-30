@@ -1,0 +1,63 @@
+#contenedor {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*estilo para titulo*/
+
+h1 {
+    color: aqua;
+}
+
+/*estilos campo de entrada*/
+
+#nuevatarea {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/*estilo para boton agregar*/
+#agregarbtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*estilo de listad de tareas*/
+
+#listatareas {
+    list-style: name;
+    padding: 0;
+}
+
+/*estilos a lista de tareas*/
+.tarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/*estilo para el boton eliminar*/
+.eliminarbtn {
+    background-color: red;
+    color: white;
+}
+
+/*estilo para el boton modificar guardae*/
+.modificarbtn {
+    background-color: blue;
+    color: white;
+}
